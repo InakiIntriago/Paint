@@ -24,6 +24,7 @@ def square(start, end):
 
 def drawcircle(start, end):
     "Draw circle from start to end."
+    #Se agrego la funcionalidad para pintar un circulo
     up()                    
     goto(start.x, end.y)           
     down()                            
@@ -34,6 +35,7 @@ def drawcircle(start, end):
     
 def rectangle(start, end):
     "Draw rectangle from start to end." 
+    #Se agrego la funcionalidad para pintar un rectangulo
     up()                               
     goto(start.x,start.y)             
     down()                             
@@ -48,6 +50,7 @@ def rectangle(start, end):
 
 def triangle(start, end):
     "Draw triangle from start to end."
+    #Se agrego la funcionalidad para pintar un triangulo
     up()                               
     goto(start.x,start.y)             
     down()                             
@@ -83,8 +86,8 @@ onkey(lambda: color('white'), 'W')
 onkey(lambda: color('green'), 'G')
 onkey(lambda: color('blue'), 'B')
 onkey(lambda: color('red'), 'R')
-onkey(lambda: color('purple'), 'P')
-onkey(lambda: color('dark orange'), 'D')
+onkey(lambda: color('purple'), 'P') # Se agrego el color morado a la gama de colores disponibles para pintar
+onkey(lambda: color('dark orange'), 'D') # Se agrego el color naranja oscuro a la gama de colores disponibles para pintar
 onkey(lambda: store('shape', line), 'l')
 onkey(lambda: store('shape', square), 's')
 onkey(lambda: store('shape', drawcircle), 'c')
