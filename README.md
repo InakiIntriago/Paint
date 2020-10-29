@@ -1,2 +1,2 @@
 # Paint
-Este programa dibuja la línea, un círculo y tiene el morado como color nuevo
+Este programa dibuja en diferentes colores una línea, un círculo, un rectángulo y un cuadrado en la pantalla mostrada. Además, de los colores ya establecidos, agregamos el morado como color nuevo. 
